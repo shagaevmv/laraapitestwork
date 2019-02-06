@@ -1,0 +1,284 @@
+{
+  "message": "Undefined offset: 0",
+  "exception": "ErrorException",
+  "file": "/home/vagrant/code/app/Http/Controllers/V1/UserController.php",
+  "line": 13,
+  "trace": [
+    {
+      "file": "/home/vagrant/code/app/Http/Controllers/V1/UserController.php",
+      "line": 13,
+      "function": "handleError",
+      "class": "Illuminate\\Foundation\\Bootstrap\\HandleExceptions",
+      "type": "->"
+    },
+    {
+      "function": "auth",
+      "class": "App\\Http\\Controllers\\V1\\UserController",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+      "line": 54,
+      "function": "call_user_func_array"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php",
+      "line": 45,
+      "function": "callAction",
+      "class": "Illuminate\\Routing\\Controller",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+      "line": 219,
+      "function": "dispatch",
+      "class": "Illuminate\\Routing\\ControllerDispatcher",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+      "line": 176,
+      "function": "runController",
+      "class": "Illuminate\\Routing\\Route",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 682,
+      "function": "run",
+      "class": "Illuminate\\Routing\\Route",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 30,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php",
+      "line": 41,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 151,
+      "function": "handle",
+      "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+      "line": 58,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 151,
+      "function": "handle",
+      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 104,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 684,
+      "function": "then",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 659,
+      "function": "runRouteWithinStack",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 625,
+      "function": "runRoute",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 614,
+      "function": "dispatchToRoute",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 176,
+      "function": "dispatch",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 30,
+      "function": "Illuminate\\Foundation\\Http\\{closure}",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/fideloper/proxy/src/TrustProxies.php",
+      "line": 57,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 151,
+      "function": "handle",
+      "class": "Fideloper\\Proxy\\TrustProxies",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+      "line": 31,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 151,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+      "line": 31,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 151,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+      "line": 27,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 151,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+      "line": 62,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 151,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 104,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 151,
+      "function": "then",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 116,
+      "function": "sendRequestThroughRouter",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "/home/vagrant/code/public/index.php",
+      "line": 55,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    }
+  ]
+}

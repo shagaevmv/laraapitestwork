@@ -1,0 +1,478 @@
+Symfony\Component\Debug\Exception\FatalErrorException Object
+(
+[message:protected] => Allowed memory size of 536870912 bytes exhausted (tried to allocate 266342400 bytes)
+[string:Exception:private] =>
+[code:protected] => 1
+[file:protected] => /home/vagrant/code/app/Exceptions/Handler.php
+[line:protected] => 50
+[trace:Exception:private] => Array
+(
+[0] => Array
+(
+[function] => __construct
+[type] => ->
+[class] => Symfony\Component\Debug\Exception\FatalErrorException
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php
+[line] => 137
+[args] => Array
+(
+)
+
+)
+
+[1] => Array
+(
+[function] => fatalExceptionFromError
+[type] => ->
+[class] => Illuminate\Foundation\Bootstrap\HandleExceptions
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php
+[line] => 123
+[args] => Array
+(
+)
+
+)
+
+[2] => Array
+(
+[function] => handleShutdown
+[type] => ->
+[class] => Illuminate\Foundation\Bootstrap\HandleExceptions
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php
+[line] => 0
+[args] => Array
+(
+)
+
+)
+
+[3] => Array
+(
+[function] => print_r
+[file] => /home/vagrant/code/app/Exceptions/Handler.php
+[line] => 50
+[args] => Array
+(
+)
+
+)
+
+[4] => Array
+(
+[function] => render
+[type] => ->
+[class] => App\Exceptions\Handler
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 83
+[args] => Array
+(
+)
+
+)
+
+[5] => Array
+(
+[function] => handleException
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 55
+[args] => Array
+(
+)
+
+)
+
+[6] => Array
+(
+[function] => Illuminate\Routing\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:47-59}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php
+[line] => 58
+[args] => Array
+(
+)
+
+)
+
+[7] => Array
+(
+[function] => handle
+[type] => ->
+[class] => Illuminate\Routing\Middleware\ThrottleRequests
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php
+[line] => 151
+[args] => Array
+(
+)
+
+)
+
+[8] => Array
+(
+[function] => Illuminate\Pipeline\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128-157}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 53
+[args] => Array
+(
+)
+
+)
+
+[9] => Array
+(
+[function] => Illuminate\Routing\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:47-59}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php
+[line] => 104
+[args] => Array
+(
+)
+
+)
+
+[10] => Array
+(
+[function] => then
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php
+[line] => 684
+[args] => Array
+(
+)
+
+)
+
+[11] => Array
+(
+[function] => runRouteWithinStack
+[type] => ->
+[class] => Illuminate\Routing\Router
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php
+[line] => 659
+[args] => Array
+(
+)
+
+)
+
+[12] => Array
+(
+[function] => runRoute
+[type] => ->
+[class] => Illuminate\Routing\Router
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php
+[line] => 625
+[args] => Array
+(
+)
+
+)
+
+[13] => Array
+(
+[function] => dispatchToRoute
+[type] => ->
+[class] => Illuminate\Routing\Router
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Router.php
+[line] => 614
+[args] => Array
+(
+)
+
+)
+
+[14] => Array
+(
+[function] => dispatch
+[type] => ->
+[class] => Illuminate\Routing\Router
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php
+[line] => 176
+[args] => Array
+(
+)
+
+)
+
+[15] => Array
+(
+[function] => Illuminate\Foundation\Http\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:173-177}
+[type] => ->
+[class] => App\Http\Kernel
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 30
+[args] => Array
+(
+)
+
+)
+
+[16] => Array
+(
+[function] => Illuminate\Routing\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:28-36}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/fideloper/proxy/src/TrustProxies.php
+[line] => 57
+[args] => Array
+(
+)
+
+)
+
+[17] => Array
+(
+[function] => handle
+[type] => ->
+[class] => App\Http\Middleware\TrustProxies
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php
+[line] => 151
+[args] => Array
+(
+)
+
+)
+
+[18] => Array
+(
+[function] => Illuminate\Pipeline\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128-157}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 53
+[args] => Array
+(
+)
+
+)
+
+[19] => Array
+(
+[function] => Illuminate\Routing\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:47-59}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php
+[line] => 31
+[args] => Array
+(
+)
+
+)
+
+[20] => Array
+(
+[function] => handle
+[type] => ->
+[class] => Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php
+[line] => 151
+[args] => Array
+(
+)
+
+)
+
+[21] => Array
+(
+[function] => Illuminate\Pipeline\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128-157}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 53
+[args] => Array
+(
+)
+
+)
+
+[22] => Array
+(
+[function] => Illuminate\Routing\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:47-59}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php
+[line] => 31
+[args] => Array
+(
+)
+
+)
+
+[23] => Array
+(
+[function] => handle
+[type] => ->
+[class] => App\Http\Middleware\TrimStrings
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php
+[line] => 151
+[args] => Array
+(
+)
+
+)
+
+[24] => Array
+(
+[function] => Illuminate\Pipeline\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128-157}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 53
+[args] => Array
+(
+)
+
+)
+
+[25] => Array
+(
+[function] => Illuminate\Routing\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:47-59}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php
+[line] => 27
+[args] => Array
+(
+)
+
+)
+
+[26] => Array
+(
+[function] => handle
+[type] => ->
+[class] => Illuminate\Foundation\Http\Middleware\ValidatePostSize
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php
+[line] => 151
+[args] => Array
+(
+)
+
+)
+
+[27] => Array
+(
+[function] => Illuminate\Pipeline\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128-157}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 53
+[args] => Array
+(
+)
+
+)
+
+[28] => Array
+(
+[function] => Illuminate\Routing\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:47-59}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php
+[line] => 62
+[args] => Array
+(
+)
+
+)
+
+[29] => Array
+(
+[function] => handle
+[type] => ->
+[class] => App\Http\Middleware\CheckForMaintenanceMode
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php
+[line] => 151
+[args] => Array
+(
+)
+
+)
+
+[30] => Array
+(
+[function] => Illuminate\Pipeline\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128-157}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php
+[line] => 53
+[args] => Array
+(
+)
+
+)
+
+[31] => Array
+(
+[function] => Illuminate\Routing\{closure:/home/vagrant/code/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:47-59}
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php
+[line] => 104
+[args] => Array
+(
+)
+
+)
+
+[32] => Array
+(
+[function] => then
+[type] => ->
+[class] => Illuminate\Routing\Pipeline
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php
+[line] => 151
+[args] => Array
+(
+)
+
+)
+
+[33] => Array
+(
+[function] => sendRequestThroughRouter
+[type] => ->
+[class] => App\Http\Kernel
+[file] => /home/vagrant/code/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php
+[line] => 116
+[args] => Array
+(
+)
+
+)
+
+[34] => Array
+(
+[function] => handle
+[type] => ->
+[class] => App\Http\Kernel
+[file] => /home/vagrant/code/public/index.php
+[line] => 55
+[args] => Array
+(
+)
+
+)
+
+[35] => Array
+(
+[function] => {main}
+[file] => /home/vagrant/code/public/index.php
+[line] => 0
+[args] => Array
+(
+)
+
+)
+
+)
+
+[previous:Exception:private] =>
+[severity:protected] => 0
+)

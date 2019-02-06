@@ -1,0 +1,14 @@
+{
+  "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjYwOTE5YjNiYzA1NTc3NzNkY2I5YThhMmRhMWIyODVmZDM3YTA0Y2MzOWVkZmNhOWI5Njk3M2QzMGE3YmFlOWMwNzlhZDVjZjUzZWY1ZDY0In0.eyJhdWQiOiIxIiwianRpIjoiNjA5MTliM2JjMDU1Nzc3M2RjYjlhOGEyZGExYjI4NWZkMzdhMDRjYzM5ZWRmY2E5Yjk2OTczZDMwYTdiYWU5YzA3OWFkNWNmNTNlZjVkNjQiLCJpYXQiOjE1NDk0Mzk3NDQsIm5iZiI6MTU0OTQzOTc0NCwiZXhwIjoxNTgwOTc1NzQ0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.dyol4w0oQ4yLqlZRcRNmg0LBzKEGeIhfiBUoasTM2GvOFStge-MGoPg5STTfpggKhXPHlOg1elExkVHJd-AYNMLcqbZQJ8TV1aFvvd7BIOgY-b_fQh9YCq23uHtZXnocDh7DQajoNFzSh-KHL3J8wNituq6GXU1bk0T-oqDn3f7y6VEY3BEktAISza6O3P3TMmKGwxR9brwWipTbc25aZHc7-IDkdDJp5KcrO4Z5sjgGNAMhptJjLRrbEKSqtnFZU4lutjA6lkG7iBGboG5rG8eM3kAnmFk5Xi7xqWfcQZGQSaNEiVGjeE0J-1ZmAvNmKcILgpI89KG3Ie0WRsvdLcTMuJ6Jzht9nLW7HxXiOZ-A1xcfkZ6gENy1uTEaqQUY8s6onH98sit5riR-6PJ9PVZ64OrH6vkyh9Ecyojm1FgLOt9xG9gUiOzINTb_Lkk6kNOgeX7Qe49GUOWFzffbEPe7hhPdJ-1JSCW_EBo55wc40yLZsZt2tS7m73DlYfXb9eyaJ_u6QobpbG6bCggCFb2b9IOdt8M09iIeqCSoXAVpVieOw_Ul5iZfcvFCw0T3eM4c055s2NZpxFFnnxdLHQzkvHEtigpMiqScEe6X2Yxic8hJr5HtqkzkC95JnzQ5fHwUD9j5Ahli-8R8mYZx8JXeP3BjsEZ0ey8kiEY4N8k",
+  "token": {
+    "id": "60919b3bc0557773dcb9a8a2da1b285fd37a04cc39edfca9b96973d30a7bae9c079ad5cf53ef5d64",
+    "user_id": 1,
+    "client_id": 1,
+    "name": "token-name",
+    "scopes": [],
+    "revoked": false,
+    "created_at": "2019-02-06 07:55:44",
+    "updated_at": "2019-02-06 07:55:44",
+    "expires_at": "2020-02-06 07:55:44"
+  }
+}

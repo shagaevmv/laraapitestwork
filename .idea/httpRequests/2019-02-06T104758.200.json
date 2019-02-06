@@ -1,0 +1,44 @@
+{
+  "id": 1,
+  "title": "category - Odio quia voluptates minus vitae cumque incidunt cupiditate.",
+  "created_at": "2019-02-06 07:38:42",
+  "updated_at": "2019-02-06 07:38:42",
+  "products": [
+    {
+      "id": 1,
+      "title": "Quas autem delectus cum minima alias.",
+      "created_at": "2019-02-06 07:38:41",
+      "updated_at": "2019-02-06 07:38:41"
+    },
+    {
+      "id": 2,
+      "title": "Aliquid labore praesentium corrupti et.",
+      "created_at": "2019-02-06 07:38:41",
+      "updated_at": "2019-02-06 07:38:41"
+    },
+    {
+      "id": 3,
+      "title": "Optio recusandae consequatur ea sunt quia facere quam ullam.",
+      "created_at": "2019-02-06 07:38:41",
+      "updated_at": "2019-02-06 07:38:41"
+    },
+    {
+      "id": 4,
+      "title": "Iste aut consequuntur tenetur similique ducimus.",
+      "created_at": "2019-02-06 07:38:41",
+      "updated_at": "2019-02-06 07:38:41"
+    },
+    {
+      "id": 5,
+      "title": "Ducimus id consequatur odio perferendis quis.",
+      "created_at": "2019-02-06 07:38:41",
+      "updated_at": "2019-02-06 07:38:41"
+    },
+    {
+      "id": 6,
+      "title": "Aliquam esse ut asperiores omnis architecto ut.",
+      "created_at": "2019-02-06 07:38:42",
+      "updated_at": "2019-02-06 07:38:42"
+    }
+  ]
+}
